@@ -1,3 +1,4 @@
+# склонение процентов
 def declension_word():
     for i in range(1, 101):
         if i == 1:
@@ -54,6 +55,7 @@ def declension_word():
             print(f'{i} процента')
         elif 95 <= i < 101:
             print(f'{i} процентов')
+            print('hello')
 
 
 declension_word()

@@ -1,3 +1,4 @@
+# Нечетные кубы
 def odd_cube():
     new_list = []
     second_list = []

@@ -1,3 +1,4 @@
+# время из секунд в минуты часы дни
 def duration(time):
     if time < 60:
         print(f'{time} сек')
@@ -16,6 +17,7 @@ def duration(time):
         min = time % 86400 % 3600 // 60
         second = time % 86400 % 3600 % 60
         print(f'{day} дн {hour} час {min} мин {second} сек')
+        print('Hello')
 
 
 duration(400153)
